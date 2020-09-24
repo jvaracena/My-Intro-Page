@@ -1,0 +1,212 @@
+/*
+    styleGuideExample.css - v4.1 - 11.1.18
+*/
+
+/* ========================================================= */
+/*  IMPORTS for fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/* ========================================================= */
+/*  Font Style Rules */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========================================================= */
+/* Text Style Rules */
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #333745;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333745;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #333745;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;  
+    line-height: 1.8;
+    color: #333745;
+}
+
+/* HR Styles */
+
+hr {
+	border-top: 10px dashed #333745;
+}
+
+/* ========================================================= */
+/*  Rules */
+
+/* Container Section */
+
+.container-fluid, .container {
+    padding: 50px 20px;
+}
+
+.text-spacing {
+    padding: 0.35em;
+}
+
+.section-spacing {
+    padding: 1.0em;
+}
+
+/* ========================================================= */
+/* Color Style Rules
+
+    Reference:  coolors.co
+
+    .gold   #FF9F1C
+    .grey   #333745
+    .blue   #084887
+    .red    #BF211E
+    .white  #F7F5FB
+*/
+
+.bg-gold {
+    background-color:  #FF9F1C;
+    color: #F7F5FB !important;
+}
+
+.bg-blue {
+    background-color: #084887;
+    color: #F7F5FB !important;
+}
+
+.bg-grey {
+    background-color: #2E4756;
+    color: #F7F5FB !important;
+}
+
+.bg-white {
+    background-color: #F7F5FB;
+    color: #333745 !important;
+}
+
+.bg-red {
+    background-color: #BF211E;
+    color: #F7F5FB !important;
+}
+
+.text-white {
+    color: #F7F5FB !important;    
+}
+
+/* ========================================================= */
+/* Button Styles */
+
+.btn {
+    border: 1px solid #FF9F1C;
+    background-color: #FF9F1C !important;
+    color: #F7F5FB;
+}
+
+.btn:hover {
+    border: 1px solid #FF9F1C;
+    background-color: #F7F5FB !important;
+    color: #FF9F1C;
+}
+
+/* ========================================================= */
+/* Tabs */
+
+/* Tabs .borders :: Add borders to tab content */
+
+.nav-tabs .nav-link {
+    background-color:  #F7F5FB;
+    color: #FF9F1C !important;
+    border-color: #FF9F1C; 
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    background-color:  #F7F5FB;
+    color: #FF9F1C !important;
+    border-color: #FF9F1C;    
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    background-color:  #FF9F1C;
+    color: #F7F5FB !important;
+    border-color: #F7F5FB;
+}
+
+
+/* ========================================================= */
+/* Navbar */
+
+.navbar {
+  background-color: #ff9f1c;
+}
+.navbar .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #f7f5fb;
+}
+.navbar .navbar-text {
+  color: #ecf0f1;
+}
+.navbar .navbar-nav .nav-link {
+  color: #ecf0f1;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #f7f5fb;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #f7f5fb;
+  background-color: #ff9f1c;
+}
+.navbar .navbar-toggle {
+  border-color: #ff9f1c;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #ff9f1c;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #ecf0f1;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar .navbar-link {
+  color: #ecf0f1;
+}
+.navbar .navbar-link:hover {
+  color: #f7f5fb;
+}
+
